@@ -19,6 +19,7 @@
 		95240D662A0B40B400F45263 /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95240D652A0B40B400F45263 /* UIViewExtensions.swift */; };
 		95240D682A0B440700F45263 /* OnboardingSlides.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95240D672A0B440700F45263 /* OnboardingSlides.swift */; };
 		95240D6A2A0BCE4300F45263 /* OnboardingCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95240D692A0BCE4200F45263 /* OnboardingCollectionViewCell.swift */; };
+		95240D6D2A11C0AC00F45263 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95240D6C2A11C0AC00F45263 /* HomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		95240D652A0B40B400F45263 /* UIViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtensions.swift; sourceTree = "<group>"; };
 		95240D672A0B440700F45263 /* OnboardingSlides.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingSlides.swift; sourceTree = "<group>"; };
 		95240D692A0BCE4200F45263 /* OnboardingCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingCollectionViewCell.swift; sourceTree = "<group>"; };
+		95240D6C2A11C0AC00F45263 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,6 +148,7 @@
 		95240D602A0B1A9200F45263 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				95240D6B2A11C03300F45263 /* Home */,
 				95240D612A0B1ACE00F45263 /* OnBoarding */,
 			);
 			path = View;
@@ -166,6 +169,14 @@
 				95240D652A0B40B400F45263 /* UIViewExtensions.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		95240D6B2A11C03300F45263 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				95240D6C2A11C0AC00F45263 /* HomeViewController.swift */,
+			);
+			path = Home;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -304,6 +315,7 @@
 				95240D682A0B440700F45263 /* OnboardingSlides.swift in Sources */,
 				95240D662A0B40B400F45263 /* UIViewExtensions.swift in Sources */,
 				95240D632A0B1B2300F45263 /* OnboardingViewController.swift in Sources */,
+				95240D6D2A11C0AC00F45263 /* HomeViewController.swift in Sources */,
 				95240D6A2A0BCE4300F45263 /* OnboardingCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
