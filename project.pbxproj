@@ -32,6 +32,8 @@
 		95240D852A15AC0A00F45263 /* Dish.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95240D842A15AC0A00F45263 /* Dish.swift */; };
 		95240D892A16E34B00F45263 /* DishLandscapeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95240D872A16E34B00F45263 /* DishLandscapeCollectionViewCell.swift */; };
 		95240D8A2A16E34B00F45263 /* DishLandscapeCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 95240D882A16E34B00F45263 /* DishLandscapeCollectionViewCell.xib */; };
+		95240D8D2A16FB7000F45263 /* DishDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95240D8C2A16FB7000F45263 /* DishDetailViewController.swift */; };
+		95240D8F2A18527900F45263 /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95240D8E2A18527800F45263 /* UIViewControllerExtension.swift */; };
 		9A4A72A0AAA5ECD91B321306 /* Pods_FoodieTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E12A54A92DDD6D8E70BD5242 /* Pods_FoodieTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -84,6 +86,8 @@
 		95240D842A15AC0A00F45263 /* Dish.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dish.swift; sourceTree = "<group>"; };
 		95240D872A16E34B00F45263 /* DishLandscapeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DishLandscapeCollectionViewCell.swift; sourceTree = "<group>"; };
 		95240D882A16E34B00F45263 /* DishLandscapeCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DishLandscapeCollectionViewCell.xib; sourceTree = "<group>"; };
+		95240D8C2A16FB7000F45263 /* DishDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DishDetailViewController.swift; sourceTree = "<group>"; };
+		95240D8E2A18527800F45263 /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
 		C4A9A77AF80C68618A4B8FD5 /* Pods-Foodie-FoodieUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Foodie-FoodieUITests.release.xcconfig"; path = "Target Support Files/Pods-Foodie-FoodieUITests/Pods-Foodie-FoodieUITests.release.xcconfig"; sourceTree = "<group>"; };
 		CA8C2A0B7DC450EA00E01639 /* Pods-Foodie-FoodieUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Foodie-FoodieUITests.debug.xcconfig"; path = "Target Support Files/Pods-Foodie-FoodieUITests/Pods-Foodie-FoodieUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		D5DC6B3AFFCE8CB776FC92D2 /* Pods_Foodie.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Foodie.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -198,6 +202,7 @@
 		95240D602A0B1A9200F45263 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				95240D8B2A16FB3200F45263 /* Dish detail */,
 				95240D6B2A11C03300F45263 /* Home */,
 				95240D612A0B1ACE00F45263 /* OnBoarding */,
 			);
@@ -218,6 +223,7 @@
 			children = (
 				95240D652A0B40B400F45263 /* UIViewExtensions.swift */,
 				95240D792A14472F00F45263 /* String+Extensions.swift */,
+				95240D8E2A18527800F45263 /* UIViewControllerExtension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -282,6 +288,14 @@
 				95240D882A16E34B00F45263 /* DishLandscapeCollectionViewCell.xib */,
 			);
 			path = DishLandscapeCollectionView;
+			sourceTree = "<group>";
+		};
+		95240D8B2A16FB3200F45263 /* Dish detail */ = {
+			isa = PBXGroup;
+			children = (
+				95240D8C2A16FB7000F45263 /* DishDetailViewController.swift */,
+			);
+			path = "Dish detail";
 			sourceTree = "<group>";
 		};
 		DD69B62793494B49FE0B87D1 /* Pods */ = {
@@ -543,8 +557,10 @@
 				95240D2E2A0A7EBB00F45263 /* AppDelegate.swift in Sources */,
 				95240D302A0A7EBB00F45263 /* SceneDelegate.swift in Sources */,
 				95240D682A0B440700F45263 /* OnboardingSlides.swift in Sources */,
+				95240D8F2A18527900F45263 /* UIViewControllerExtension.swift in Sources */,
 				95240D662A0B40B400F45263 /* UIViewExtensions.swift in Sources */,
 				95240D7A2A14472F00F45263 /* String+Extensions.swift in Sources */,
+				95240D8D2A16FB7000F45263 /* DishDetailViewController.swift in Sources */,
 				95240D632A0B1B2300F45263 /* OnboardingViewController.swift in Sources */,
 				95240D6D2A11C0AC00F45263 /* HomeViewController.swift in Sources */,
 				95240D892A16E34B00F45263 /* DishLandscapeCollectionViewCell.swift in Sources */,
