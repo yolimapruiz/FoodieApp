@@ -1,5 +1,5 @@
 # Foodie App
-It's comprehensive yet easy to use app that simulates a food ordering service where people can places orders choosing from diferent categories.
+It's a comprehensive yet easy-to-use app that simulates a food ordering service where people can place orders choosing from different categories.
 ### Features
 
 - Onboarding Screen
